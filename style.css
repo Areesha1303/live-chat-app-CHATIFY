@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(234, 162, 174) 
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 1px 263px;
+   align-items: center;
+   background-color: aliceblue;
+   border: 1px solid black;
+   border-radius: 16px;
+   height: 46px;
+}
+img{
+    display: block;
+    width: 41px;
+    height:41px;
+    text-align: center;
+    margin: 20px;
+    padding: 6px;
+}
+
+.container{
+    max-width: 698px;
+    background-image: url(./requirements/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: cover;
+    margin: auto;
+    height: 393px;
+    padding: 33px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.message{
+    background-color: aqua;
+    margin: 4px;
+    padding: 3px;
+    width: 24%;
+    border: 2px solid black;
+    border-radius: 10px; 
+
+}
+.right{
+    float: right;
+    clear: both;
+   
+}
+.left{
+    float: left;
+    clear: both;
+}
+#sendContainer{
+    display: block;
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+}
+#messageInp{
+    width: 685px;
+    border: 2px solid;
+    border-radius: 18px;
+    height: 24px;
+}
+.btn{
+    width: 43px;
+    border: 2px solid;
+    border-radius: 6px;
+    margin: 2px;
+    padding: 3px;
+    cursor: pointer;
+}
